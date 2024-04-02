@@ -1,0 +1,16 @@
+table,th,td{
+    margin: auto;
+    border: 1px solid gray;
+}
+
+tr th{
+    background-color: aqua;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+tr td{
+    background-color: red;
+    color: yellow;
+    font-size: 15px;
+}

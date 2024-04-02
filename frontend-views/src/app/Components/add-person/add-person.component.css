@@ -1,0 +1,14 @@
+.container{
+    align-content: center;
+    background-color: turquoise;
+    margin: auto;
+}
+
+.container h1{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.container form{
+    text-align: center;
+}

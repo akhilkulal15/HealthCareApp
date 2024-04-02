@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Mobile Number</th>
+    </tr>
+    <div *ngFor = "let person of Persons">
+        <tr>
+            <td>{{person.name}}</td>
+            <td>{{person.age}}</td>
+            <td>{{person.gender}}</td>
+            <td>{{person.mobilenumber}}</td>
+        </tr>
+    </div>
+</table>

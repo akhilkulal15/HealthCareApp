@@ -1,0 +1,11 @@
+<div class="db" *ngFor="let view of views; let i= index" >
+    <div class="row" >
+      <div class="col" *ngFor="let j of [0,1,2,3]">
+          <div *ngIf="i+j < views.length">
+            <a href="{{this.views[i+j].url}}"><app-view-card [view]="views[i+j]"></app-view-card></a>
+          </div>
+      </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
